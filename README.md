@@ -1,5 +1,7 @@
 # Worker.cash DroidVNC-NG 2captcha solver
 
+Using DroidVNC-NG. (You can install from f-droid.)
+
 Install Termux or Local desktop ( Same network like 192.168.1.1/24)
 
 ## create venv
@@ -8,9 +10,9 @@ python -m venv venv
 
 venv/bin/activate
 # Windows Powershell
-venv/Scripts/Activate.ps1
+venv\Scripts\Activate.ps1
 
-pip install -r requirements.txt
+pip install opencv-python numpy vncdotool 2captcha-python
 ```
 
 ## Setting
