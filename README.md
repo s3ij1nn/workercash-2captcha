@@ -1,5 +1,7 @@
 # Worker.cash 2captcha solver
 
+![Demo GIF](https://github.com/s3ij1nn/workercash-2captcha/raw/main/Demo.gif)
+
 Using DroidVNC-NG. (You can install from f-droid.)
 
 Install Termux or Local desktop ( Same network like 192.168.1.1/24)
