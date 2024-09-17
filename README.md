@@ -4,7 +4,7 @@
 
 Using DroidVNC-NG. (You can install from f-droid.)
 
-Install Termux or Local desktop ( Same network like 192.168.1.1/24)
+Local desktop ( Same network like 192.168.1.1/24)
 
 This script not provide touch play button tool.
 
@@ -26,8 +26,6 @@ pip install opencv-python numpy vncdotool 2captcha-python
 edit run.py
 ```
 vnc_host = '192.168.10.118'
-# on termux
-vnc_host = '127.0.0.1'
 
 # 2captcha api key
 api_key = 'YOUR_2CAPTCHA_KEY'
