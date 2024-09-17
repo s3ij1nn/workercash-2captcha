@@ -1,0 +1,5 @@
+/venv/*
+/__pycache__/*
+screenshot.png
+captcha.png
+captcha_instruction.png
