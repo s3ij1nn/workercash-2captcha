@@ -1,8 +1,10 @@
 # Worker.cash 2captcha solver
 
+![Demo GIF](https://github.com/s3ij1nn/workercash-2captcha/raw/main/Demo.gif)
+
 Using DroidVNC-NG. (You can install from f-droid.)
 
-Install Termux or Local desktop ( Same network like 192.168.1.1/24)
+Local desktop ( Same network like 192.168.1.1/24)
 
 This script not provide touch play button tool.
 
@@ -24,8 +26,6 @@ pip install opencv-python numpy vncdotool 2captcha-python
 edit run.py
 ```
 vnc_host = '192.168.10.118'
-# on termux
-vnc_host = '127.0.0.1'
 
 # 2captcha api key
 api_key = 'YOUR_2CAPTCHA_KEY'
@@ -36,6 +36,6 @@ python run.py
 
 ## More info 
 Do not delete "instruction.png"  
-This file use captcha is displayed check.
+This file using detect captcha.
 
 screen2.png and screen3.png is example.
