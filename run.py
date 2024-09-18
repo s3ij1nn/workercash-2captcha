@@ -26,6 +26,9 @@ instruction_text = "Click on the icons in the following sequence"
 x = 200
 y = 1160
 
+# next button tap time
+next_button_tap_time = 0
+
 
 while True:
     # スクリーンショットを撮る
@@ -60,11 +63,11 @@ while True:
 
     # Next Button が表示されたまま固まる場合があるため
     # Next Button が表示されたらクリックする
+    # 連続タップを行わないようにタップした時刻を記録する
     contains = check_image_contains(next_button, screenshot_filename)
     if contains:
         click_x = 400
         click_y = 2250
-        click(vnc_host, vnc_port, vnc_password, click_x, click_y)
-        time.sleep(10)
-
-        
+        if time.time() - next_button_tap_time > 10:
+            click(vnc_host, vnc_port, vnc_password, click_x, click_y)
+            next_button_tap_time = time.time()
