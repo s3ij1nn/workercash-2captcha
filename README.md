@@ -36,6 +36,6 @@ python run.py
 
 ## More info 
 Do not delete "instruction.png"  
-This file use captcha is displayed check.
+This file using detect captcha.
 
 screen2.png and screen3.png is example.
