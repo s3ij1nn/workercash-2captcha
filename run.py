@@ -50,7 +50,13 @@ while True:
         # キャプチャ解決に失敗した場合
         if location == None:
             print("Failed to solve captcha.")
-            time.sleep(10)
+            time.sleep(20)
+            continue
+        
+        # location が3つの座標を持っていることを確認
+        if len(location) != 3:
+            print("Invalid location.")
+            time.sleep(20)
             continue
 
         # クリックする
